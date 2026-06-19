@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand Colors -->
+    <color name="primary">#0F766E</color>
+    <color name="primary_dark">#0A5C56</color>
+    <color name="primary_light">#14B8A6</color>
+    <color name="on_primary">#FFFFFF</color>
+
+    <color name="secondary">#1E3A5F</color>
+    <color name="secondary_dark">#152A45</color>
+    <color name="on_secondary">#FFFFFF</color>
+
+    <!-- Semantic Colors -->
+    <color name="piutang_green">#16A34A</color>
+    <color name="piutang_green_light">#DCFCE7</color>
+    <color name="hutang_red">#DC2626</color>
+    <color name="hutang_red_light">#FEE2E2</color>
+    <color name="due_soon_orange">#D97706</color>
+    <color name="due_soon_orange_light">#FEF3C7</color>
+    <color name="lunas_gray">#9CA3AF</color>
+    <color name="lunas_gray_light">#F3F4F6</color>
+
+    <!-- Surface & Background -->
+    <color name="background">#FAFAFA</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_variant">#F5F5F5</color>
+    <color name="on_background">#1F2937</color>
+    <color name="on_surface">#1F2937</color>
+    <color name="on_surface_secondary">#6B7280</color>
+
+    <!-- Avatar Colors (array in code, reference here for documentation) -->
+    <color name="avatar_red">#E57373</color>
+    <color name="avatar_blue">#64B5F6</color>
+    <color name="avatar_green">#81C784</color>
+    <color name="avatar_orange">#FFB74D</color>
+    <color name="avatar_purple">#BA68C8</color>
+    <color name="avatar_teal">#4DB6AC</color>
+    <color name="avatar_pink">#F06292</color>
+    <color name="avatar_brown">#A1887F</color>
+
+    <!-- Divider & Outline -->
+    <color name="divider">#E5E7EB</color>
+    <color name="outline">#D1D5DB</color>
+
+    <!-- Chip Colors -->
+    <color name="chip_selected">#0F766E</color>
+    <color name="chip_unselected">#F3F4F6</color>
+    <color name="chip_text_selected">#FFFFFF</color>
+    <color name="chip_text_unselected">#4B5563</color>
+</resources>

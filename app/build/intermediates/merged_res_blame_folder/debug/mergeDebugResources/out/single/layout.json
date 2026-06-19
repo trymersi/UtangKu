@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "com.huskydev.hutangpiutang.app-mergeDebugResources-39:/layout/activity_debt_detail.xml",
+        "source": "com.huskydev.hutangpiutang.app-main-42:/layout/activity_debt_detail.xml"
+    },
+    {
+        "merged": "com.huskydev.hutangpiutang.app-mergeDebugResources-39:/layout/fragment_payment_bottom_sheet.xml",
+        "source": "com.huskydev.hutangpiutang.app-main-42:/layout/fragment_payment_bottom_sheet.xml"
+    },
+    {
+        "merged": "com.huskydev.hutangpiutang.app-mergeDebugResources-39:/layout/activity_about.xml",
+        "source": "com.huskydev.hutangpiutang.app-main-42:/layout/activity_about.xml"
+    },
+    {
+        "merged": "com.huskydev.hutangpiutang.app-mergeDebugResources-39:/layout/activity_contact_list.xml",
+        "source": "com.huskydev.hutangpiutang.app-main-42:/layout/activity_contact_list.xml"
+    },
+    {
+        "merged": "com.huskydev.hutangpiutang.app-mergeDebugResources-39:/layout/activity_contact_detail.xml",
+        "source": "com.huskydev.hutangpiutang.app-main-42:/layout/activity_contact_detail.xml"
+    },
+    {
+        "merged": "com.huskydev.hutangpiutang.app-mergeDebugResources-39:/layout/activity_add_edit_debt.xml",
+        "source": "com.huskydev.hutangpiutang.app-main-42:/layout/activity_add_edit_debt.xml"
+    },
+    {
+        "merged": "com.huskydev.hutangpiutang.app-mergeDebugResources-39:/layout/item_debt.xml",
+        "source": "com.huskydev.hutangpiutang.app-main-42:/layout/item_debt.xml"
+    },
+    {
+        "merged": "com.huskydev.hutangpiutang.app-mergeDebugResources-39:/layout/item_payment.xml",
+        "source": "com.huskydev.hutangpiutang.app-main-42:/layout/item_payment.xml"
+    },
+    {
+        "merged": "com.huskydev.hutangpiutang.app-mergeDebugResources-39:/layout/item_contact.xml",
+        "source": "com.huskydev.hutangpiutang.app-main-42:/layout/item_contact.xml"
+    },
+    {
+        "merged": "com.huskydev.hutangpiutang.app-mergeDebugResources-39:/layout/activity_main.xml",
+        "source": "com.huskydev.hutangpiutang.app-main-42:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.huskydev.hutangpiutang.app-mergeDebugResources-39:/layout/activity_settings.xml",
+        "source": "com.huskydev.hutangpiutang.app-main-42:/layout/activity_settings.xml"
+    }
+]

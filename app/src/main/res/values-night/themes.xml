@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark mode overrides -->
+    <style name="Theme.UtangKu" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary_light</item>
+        <item name="colorPrimaryDark">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary</item>
+        <item name="colorOnPrimary">#1F2937</item>
+
+        <item name="colorSecondary">@color/primary_light</item>
+        <item name="colorSecondaryVariant">@color/primary</item>
+        <item name="colorOnSecondary">#1F2937</item>
+
+        <item name="android:colorBackground">#111827</item>
+        <item name="colorSurface">#1F2937</item>
+        <item name="colorOnSurface">#F9FAFB</item>
+
+        <item name="android:statusBarColor">#111827</item>
+        <item name="android:navigationBarColor">#1F2937</item>
+
+        <item name="materialCardViewStyle">@style/Widget.UtangKu.CardView.Dark</item>
+        <item name="floatingActionButtonStyle">@style/Widget.UtangKu.FAB</item>
+        <item name="chipStyle">@style/Widget.UtangKu.Chip.Dark</item>
+        <item name="textInputStyle">@style/Widget.UtangKu.TextInputLayout.Dark</item>
+    </style>
+
+    <style name="Widget.UtangKu.CardView.Dark" parent="Widget.MaterialComponents.CardView">
+        <item name="cardElevation">2dp</item>
+        <item name="cardCornerRadius">12dp</item>
+        <item name="contentPadding">16dp</item>
+        <item name="cardBackgroundColor">#1F2937</item>
+    </style>
+
+    <style name="Widget.UtangKu.Chip.Dark" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="chipBackgroundColor">#374151</item>
+        <item name="android:textColor">#D1D5DB</item>
+        <item name="chipCornerRadius">20dp</item>
+        <item name="chipMinHeight">36dp</item>
+    </style>
+
+    <style name="Widget.UtangKu.TextInputLayout.Dark" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusTopStart">8dp</item>
+        <item name="boxCornerRadiusTopEnd">8dp</item>
+        <item name="boxCornerRadiusBottomStart">8dp</item>
+        <item name="boxCornerRadiusBottomEnd">8dp</item>
+        <item name="boxStrokeColor">@color/primary_light</item>
+        <item name="hintTextColor">@color/primary_light</item>
+    </style>
+</resources>

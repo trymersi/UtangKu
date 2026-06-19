@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UtangKu</string>
+    <string name="app_tagline">Catatan Hutang Piutang</string>
+
+    <!-- Navigation / Menu -->
+    <string name="menu_contacts">Kontak</string>
+    <string name="menu_settings">Pengaturan</string>
+    <string name="menu_about">Tentang</string>
+    <string name="menu_search">Cari</string>
+    <string name="menu_edit">Edit</string>
+    <string name="menu_delete">Hapus</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_title">Dashboard</string>
+    <string name="total_piutang">Total Piutang</string>
+    <string name="total_hutang">Total Hutang</string>
+    <string name="filter_semua">Semua</string>
+    <string name="filter_piutang">Piutang</string>
+    <string name="filter_hutang">Hutang</string>
+    <string name="filter_lunas">Lunas</string>
+    <string name="search_hint">Cari nama atau catatan…</string>
+    <string name="empty_state_title">Belum ada catatan</string>
+    <string name="empty_state_subtitle">Tap tombol + untuk menambah catatan hutang piutang pertama kamu</string>
+
+    <!-- Add/Edit Debt -->
+    <string name="add_debt_title">Tambah Catatan</string>
+    <string name="edit_debt_title">Edit Catatan</string>
+    <string name="label_contact">Kontak</string>
+    <string name="label_contact_name">Nama kontak</string>
+    <string name="label_contact_phone">Nomor telepon (opsional)</string>
+    <string name="label_type">Jenis</string>
+    <string name="type_hutang">Hutang</string>
+    <string name="type_piutang">Piutang</string>
+    <string name="label_amount">Nominal</string>
+    <string name="label_amount_hint">Masukkan nominal</string>
+    <string name="label_description">Catatan (opsional)</string>
+    <string name="label_date_created">Tanggal transaksi</string>
+    <string name="label_due_date">Tanggal jatuh tempo (opsional)</string>
+    <string name="label_reminder">Pengingat</string>
+    <string name="label_reminder_enabled">Aktifkan pengingat</string>
+    <string name="btn_save">Simpan</string>
+    <string name="btn_cancel">Batal</string>
+    <string name="btn_pick_date">Pilih Tanggal</string>
+
+    <!-- Validation -->
+    <string name="error_name_empty">Nama kontak tidak boleh kosong</string>
+    <string name="error_amount_empty">Nominal tidak boleh kosong</string>
+    <string name="error_amount_zero">Nominal harus lebih dari 0</string>
+    <string name="warning_due_before_created">Tanggal jatuh tempo lebih awal dari tanggal transaksi</string>
+    <string name="confirm_duplicate_name">Kontak dengan nama \"%1$s\" sudah ada. Tetap tambahkan?</string>
+
+    <!-- Debt Detail -->
+    <string name="detail_title">Detail Catatan</string>
+    <string name="label_original_amount">Nominal awal</string>
+    <string name="label_remaining_amount">Sisa</string>
+    <string name="label_status">Status</string>
+    <string name="label_payment_history">Riwayat Pembayaran</string>
+    <string name="label_no_payments">Belum ada pembayaran</string>
+    <string name="btn_add_payment">Catat Pembayaran</string>
+    <string name="btn_mark_paid">Tandai Lunas</string>
+    <string name="btn_call">Hubungi</string>
+    <string name="btn_message">Pesan</string>
+
+    <!-- Status labels -->
+    <string name="status_belum_lunas">Belum Lunas</string>
+    <string name="status_sebagian">Sebagian</string>
+    <string name="status_lunas">Lunas</string>
+
+    <!-- Payment Bottom Sheet -->
+    <string name="payment_title">Catat Pembayaran</string>
+    <string name="label_payment_amount">Jumlah pembayaran</string>
+    <string name="label_payment_date">Tanggal pembayaran</string>
+    <string name="label_payment_note">Catatan (opsional)</string>
+    <string name="error_payment_exceeds">Pembayaran tidak boleh melebihi sisa %1$s</string>
+    <string name="payment_auto_note">Pelunasan otomatis</string>
+
+    <!-- Confirm dialogs -->
+    <string name="confirm_delete_debt_title">Hapus Catatan?</string>
+    <string name="confirm_delete_debt_message">Catatan ini dan seluruh riwayat pembayarannya akan dihapus permanen.</string>
+    <string name="confirm_delete_contact_title">Hapus Kontak?</string>
+    <string name="confirm_delete_contact_message">Kontak \"%1$s\" beserta semua catatan hutang piutang dan riwayat pembayarannya akan dihapus permanen.</string>
+    <string name="confirm_mark_paid_title">Tandai Lunas?</string>
+    <string name="confirm_mark_paid_message">Sisa %1$s akan dicatat sebagai pelunasan otomatis.</string>
+    <string name="btn_yes_delete">Ya, Hapus</string>
+    <string name="btn_yes_mark_paid">Ya, Tandai Lunas</string>
+
+    <!-- Contact -->
+    <string name="contact_list_title">Daftar Kontak</string>
+    <string name="contact_detail_title">Detail Kontak</string>
+    <string name="label_net_balance">Saldo Bersih</string>
+    <string name="label_contact_debts">Catatan Hutang Piutang</string>
+    <string name="empty_contacts">Belum ada kontak</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Pengaturan</string>
+    <string name="settings_reminder_section">Pengingat</string>
+    <string name="settings_default_reminder_hour">Jam pengingat default</string>
+    <string name="settings_default_lead_days">Hari sebelum jatuh tempo</string>
+    <string name="settings_theme_section">Tampilan</string>
+    <string name="settings_theme_mode">Tema</string>
+    <string name="theme_light">Terang</string>
+    <string name="theme_dark">Gelap</string>
+    <string name="theme_system">Ikuti Sistem</string>
+    <string name="settings_data_section">Data</string>
+    <string name="settings_backup">Backup Data</string>
+    <string name="settings_restore">Restore Data</string>
+    <string name="settings_backup_description">Export semua data ke file JSON</string>
+    <string name="settings_restore_description">Import data dari file JSON backup</string>
+    <string name="notification_disabled_warning">Notifikasi dimatikan di pengaturan HP, aktifkan dulu kalau mau pakai pengingat</string>
+    <string name="exact_alarm_disabled_warning">Izin alarm tepat waktu belum aktif. Pengingat mungkin tidak tepat waktu.</string>
+
+    <!-- Backup/Restore -->
+    <string name="backup_success">Data berhasil di-backup</string>
+    <string name="backup_failed">Gagal backup data</string>
+    <string name="restore_mode_title">Pilih Mode Restore</string>
+    <string name="restore_mode_replace">Ganti semua data</string>
+    <string name="restore_mode_replace_desc">Semua data saat ini akan dihapus dan diganti dengan data dari backup</string>
+    <string name="restore_mode_merge">Gabung dengan data sekarang</string>
+    <string name="restore_mode_merge_desc">Data dari backup akan ditambahkan ke data yang sudah ada</string>
+    <string name="restore_success">Data berhasil di-restore</string>
+    <string name="restore_failed">Gagal restore data: %1$s</string>
+
+    <!-- About -->
+    <string name="about_title">Tentang</string>
+    <string name="about_version">Versi %1$s</string>
+    <string name="about_description">Aplikasi catatan hutang piutang offline, privat, dan aman. Seluruh data tersimpan di perangkat kamu — tanpa internet, tanpa server.</string>
+    <string name="about_privacy">Kebijakan Privasi</string>
+
+    <!-- Notification -->
+    <string name="notif_piutang_title">Pengingat Piutang — %1$s</string>
+    <string name="notif_hutang_title">Pengingat Hutang — %1$s</string>
+    <string name="notif_body_today">Jatuh tempo hari ini: %1$s</string>
+    <string name="notif_body_tomorrow">Jatuh tempo besok: %1$s</string>
+    <string name="notif_body_days">Jatuh tempo %1$d hari lagi: %2$s</string>
+    <string name="notif_body_overdue">Sudah lewat jatuh tempo: %1$s</string>
+    <string name="notif_action_mark_paid">Tandai Lunas</string>
+
+    <!-- General -->
+    <string name="hutang_label">Hutang</string>
+    <string name="piutang_label">Piutang</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Batal</string>
+    <string name="yes">Ya</string>
+    <string name="no">Tidak</string>
+</resources>
